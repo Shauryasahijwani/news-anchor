@@ -5,7 +5,7 @@ import os
 from news_video import VideoGenerator
 from news_api import NewsAPI
 
-news_api_key = os.getenv(''45202dffe5884f52a9e2e0a4fadb1fbb)
+news_api_key = os.getenv('45202dffe5884f52a9e2e0a4fadb1fbb')
 news_client = NewsAPI(news_api_key)
 video_api_key = os.getenv('BEARER TOKEN')
 video_generator=VideoGenerator(video_api_key)
