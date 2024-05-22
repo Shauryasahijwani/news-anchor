@@ -25,7 +25,7 @@ num_news=st.slider("Number of News",min_value=1,max_value=9,value=5)
 
 if st.button("Generate"):
     if input_url.strip()and query.strip and num_news is not None and num_news>0:
-        col1,col2,col3=st.columns_(1,1,1)
+        col1,col2,col3=st.columns(1,1,1)
         with col1:
             st.info("Your AI News Anchor: Sophie")
             st.image(caption="Anchor Image", use_column_width=True)
